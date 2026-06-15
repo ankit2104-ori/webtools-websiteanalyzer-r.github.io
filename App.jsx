@@ -206,3 +206,8 @@ const WebsitePerformanceAnalyzer = () => {
 };
 
 export default WebsitePerformanceAnalyzer;
+
+export default defineConfig({
+  base: '/webtools-websiteanalyzer-r.github.io/', // Matches your repo name
+  plugins: [react()],
+})
